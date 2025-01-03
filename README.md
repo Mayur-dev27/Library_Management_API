@@ -1,23 +1,25 @@
 # Library_Management_API
 
-Library Management System
+# Library Management System
 A robust application designed to streamline library operations, including book management, user account handling, and overdue fine calculation.
 
-Table of Contents
+## Table of Contents
 Features
 Technologies Used
 Project Structure
 Installation and Setup
 API Endpoints
 Future Enhancements
-Features
+
+# Features
 Book Lending and Returns: Manage book borrowing and return processes seamlessly.
 Fine Calculation: Calculates fines for overdue books at ₹5 per day.
 JWT Authentication: Secures endpoints using JSON Web Tokens for user authentication and authorization.
 Automated Cron Job: A daily scheduled task to check for overdue books and apply fines.
 Exception Handling: Graceful error handling with meaningful responses.
 Dynamic Responses: Uses Map<String, Object> for flexible API responses.
-Technologies Used
+
+# Technologies Used
 Java
 Spring Boot
 Spring Data JPA (Hibernate)
@@ -26,9 +28,9 @@ Cron Jobs
 Lombok
 H2 Database (for development)
 Postman (for testing)
-Project Structure
-css
-Copy code
+
+# Project Structure
+
 src/main/java/com/library
 ├── controller
 ├── entity
@@ -38,7 +40,8 @@ src/main/java/com/library
 ├── request
 ├── response
 └── config
-Installation and Setup
+
+# Installation and Setup
 Clone the repository:
 bash
 Copy code
@@ -47,16 +50,16 @@ Navigate to the project directory:
 bash
 Copy code
 cd library-management-system
-Build the project:
+## Build the project:
 bash
 Copy code
 mvn clean install
-Run the application:
+## Run the application:
 bash
 Copy code
 mvn spring-boot:run
-API Endpoints
-Authentication
+# API Endpoints
+## Authentication
 Login: /api/auth/login
 Register: /api/auth/register
 Book Management
@@ -68,7 +71,7 @@ Add User: /api/users (POST)
 Get All Users: /api/users (GET)
 Fine Management
 Check Fines: /api/fines/{userId} (GET)
-Future Enhancements
+# Future Enhancements
 Advanced Search: Add filters for genre, author, and availability.
 Notifications: Email or SMS alerts for due dates.
 Admin Dashboard: Visualize library metrics like active users, borrowed books, etc.
