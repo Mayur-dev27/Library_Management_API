@@ -1,6 +1,5 @@
 # Library_Management_API
 
-# Library Management System
 A robust application designed to streamline library operations, including book management, user account handling, and overdue fine calculation.
 
 ## Table of Contents
